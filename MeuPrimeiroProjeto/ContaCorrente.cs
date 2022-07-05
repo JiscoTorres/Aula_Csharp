@@ -1,17 +1,25 @@
-public class ContaCorrente
+public class ContaCorrente // Classe sempre tem "Modificador de acesso" "class" "Nome"
 {
-            public string Titular;
-            public  int Agencia;
+            public string Titular; //Atributos sempre vem logo após que as chaves foram abertas
+            public  int Agencia; // Atributos tem "modificador de acesso" "tipo" "nome"
             public int Numero;
             public double Saldo;         
 
 
-public ContaCorrente (string Titular, int Agencia, int Numero, double Saldo){
+public ContaCorrente (string Titular, int Agencia, int Numero, double Saldo){ // Construtor
             this.Titular = Titular;
             this.Agencia = Agencia;
             this.Numero =  Numero; 
             this.Saldo =  Saldo;
 }
+
+      public bool Sacar(double ValorSaque){ // É um método!
+                if (this.Saldo >= ValorSaque){
+                    this.Saldo = this.Saldo - ValorSaque;
+                    return true;
+                }
+                return false;
+              }
 }
 // int, string, double, float são "atributos"!
 

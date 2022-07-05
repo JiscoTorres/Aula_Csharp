@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
+      "projectUniqueName": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\Aula_Csharp\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
       "projectName": "MeuPrimeiroProjeto",
-      "projectPath": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
+      "projectPath": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\Aula_Csharp\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
       "packagesPath": "C:\\Users\\torre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\MeuPrimeiroProjeto\\obj\\",
+      "outputPath": "C:\\Users\\torre\\OneDrive\\Área de Trabalho\\Csharp\\Aula_Csharp\\MeuPrimeiroProjeto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\torre\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,6 +8,40 @@ namespace MeuPrimeiroProjeto
     {
      static void Main(string[] args)
         {
+
+               ContaCorrente conta_da_Barbie = new ContaCorrente ("Barbie", 12321312, 212122, 98765);
+               ContaCorrente conta_da_Lupita = new ContaCorrente ("Lupita DeLayla", 654323, 123456, 09874);
+               ContaCorrente conta_da_Greiba = new ContaCorrente ("Greiba Keka", 4322235, 6543234, 345678);
+
+
+               Console.WriteLine("A conta é do (a) " + conta_da_Barbie.Titular + ", sua agência é a " + conta_da_Barbie.Agencia + " e seu número é " + conta_da_Barbie.Numero + "Saldo: " + conta_da_Barbie.Saldo +".");
+                     
+               Console.WriteLine("A conta é do (a) " + conta_da_Lupita.Titular + ", sua agência é a " + conta_da_Lupita.Agencia + " e seu número é " + conta_da_Lupita.Numero + "Saldo: " + conta_da_Lupita.Saldo +".");
+
+               Console.WriteLine("A conta é do (a) " + conta_da_Greiba.Titular + ", sua agência é a " + conta_da_Greiba.Agencia + " e seu número é " + conta_da_Greiba.Numero + "Saldo: " + conta_da_Greiba.Saldo + ".");
+              
+
+               bool sacar_conta = conta_da_Barbie.Sacar(1000); // bool é retorno 
+               bool sacar_conta1 = conta_da_Lupita.Sacar(100); // bool é o retorno 
+               bool sacar_conta2 = conta_da_Greiba.Sacar(10); // bool é o retorno
+
+               Console.WriteLine("A conta é do (a) " + conta_da_Barbie.Titular + ", sua agência é a " + conta_da_Barbie.Agencia + " e seu número é "  + conta_da_Barbie.Numero + "Saldo: " + conta_da_Barbie.Saldo +".");
+                     
+               Console.WriteLine("A conta é do (a) " + conta_da_Lupita.Titular + ", sua agência é a " + conta_da_Lupita.Agencia + " e seu número é " + conta_da_Lupita.Numero + "Saldo: " + conta_da_Lupita.Saldo +".");
+
+               Console.WriteLine("A conta é do (a) " + conta_da_Greiba.Titular + ", sua agência é a " + conta_da_Greiba.Agencia + " e seu número é " + conta_da_Greiba.Numero + "Saldo: " + conta_da_Greiba.Saldo + ".");  
+    
+        }
+    }
+}
+
+
+//public bool Sacar(double ValorSaque) - Método tem retorno, no caso o retorno é o "bool"
+//public ContaCorrente (int NumeroConta, string) - Construtor não tem retorno. 
+
+
+
+//____________________________________________________________________________________________
          //    string Titular1 = "Sabruxa";
          //    int Agencia1 = 666;
          //    int Numero1 = 666;
@@ -58,22 +92,3 @@ namespace MeuPrimeiroProjeto
          //       conta_da_Yasmin.Saldo=0;
          //       Console.WriteLine("A conta é do (a) " + conta_da_Yasmin.Titular + ", sua agência é a " + conta_da_Yasmin.Agencia + " e seu número é " 
          //       + conta_da_Yasmin.Numero + ".");
-
-               ContaCorrente conta_da_Barbie = new ContaCorrente ("Barbie", 12321312, 212122, 98765);
-               ContaCorrente conta_da_Lupita = new ContaCorrente ("Lupita DeLayla", 654323, 123456, 09874);
-               ContaCorrente conta_da_Greiba = new ContaCorrente ("Greiba Keka", 4322235, 6543234, 345678);
-                     
-                     Console.WriteLine("A conta é do (a) " + conta_da_Barbie.Titular + ", sua agência é a " + conta_da_Barbie.Agencia + " e seu número é " 
-                     + conta_da_Barbie.Numero + ".");
-                     
-                     Console.WriteLine("A conta é do (a) " + conta_da_Lupita.Titular + ", sua agência é a " + conta_da_Lupita.Agencia + " e seu número é " 
-                     + conta_da_Lupita.Numero + ".");
-
-                     Console.WriteLine("A conta é do (a) " + conta_da_Greiba.Titular + ", sua agência é a " + conta_da_Greiba.Agencia + " e seu número é " 
-                     + conta_da_Greiba.Numero + ".");
-              
-        }
-    }
-}
-
-
